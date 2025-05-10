@@ -13,7 +13,7 @@ function calculate () {
         display.value = eval(display.value);
     }
 
-    catch (erro) {
+    catch (error) {
         display.value = "Syntax Error";
     }
 };
